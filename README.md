@@ -1,4 +1,4 @@
-# prepare container
+# Prepare container
 
 ```
 source .env
@@ -7,7 +7,7 @@ docker-compose up -d
 docker ps
 ```
 
-## install packages and postgres extension
+## Install packages and postgres extension
 
 ```
 docker exec -i -t <ID> /bin/bash
